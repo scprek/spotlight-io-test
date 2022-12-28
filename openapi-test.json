@@ -71,7 +71,8 @@
               "$ref": "#/definitions/ErrorModel"
             }
           }
-        }
+        },
+        "x-internal": true
       },
       "post": {
         "description": "Creates a new pet in the store.  Duplicates are allowed",
